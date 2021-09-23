@@ -40,7 +40,12 @@ public class QuickSort implements Sort{
         return low;
     }
 
+    public static void main(String[] args) {
 
+        QuickSort sort = new QuickSort();
+        int[] array = {3, 4, 5, 6, 7, 1, 9};
+        sort.sort(array);
+    }
 
 
 }
